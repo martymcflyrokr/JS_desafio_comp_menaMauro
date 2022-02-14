@@ -47,15 +47,13 @@ for (i = 0; i < 3; i++) {
                     if ((nivelHambre == 2) && (guardarEspacioPostre == 1)) {
                         alert("Deberias comer 2 Milanesas para poder disfrutar de ese postre hermoso.");
                         console.log(
-                            "El usuario " + nombrePersona + " está medio hambriento y quiere comer postre. " +
-                            "lo respeto."
+                            "El usuario " + nombrePersona + " está medio hambriento y quiere comer postre. lo respeto."
                         );
                         console.log("Preparar 2 Milanesas y postre.");
                     } else if ((nivelHambre === 2) && (guardarEspacioPostre === 2)) {
                         alert("Te recomiendo comer 2 Milanesas y preguntar si hay café con masitas.");
                         console.log(
-                            "El usuario " + nombrePersona + " está medio hambriento, pero prefiere Café a p" +
-                            "edir postre."
+                            "El usuario " + nombrePersona + " está medio hambriento, pero prefiere Café a pedir postre."
                         );
                         console.log("Preparar 2 Milanesas y preparar un cafécito.");
                     } else {
@@ -69,19 +67,16 @@ for (i = 0; i < 3; i++) {
                     if ((nivelHambre == 3) && (guardarEspacioPostre == 1)) {
                         alert("Deberias comer 3 Milanesas, para dejar espacio para el postre.");
                         console.log(
-                            "El usuario " + nombrePersona + " tiene mas hambre que el chavo y quiere postre" +
-                            ", probablemente repita."
+                            "El usuario " + nombrePersona + " tiene mas hambre que el chavo y quiere postre, probablemente repita."
                         );
                         console.log("Preparar 3 Milanesas y 1 postre.");
                     } else if ((nivelHambre === 3) && (guardarEspacioPostre === 2)) {
                         alert("Deberias comer 4 Milanesas, el postre es para los debiles.");
                         console.log(
-                            "El usuario " + nombrePersona + " tiene mas hambre que el chavo y no le cabe es" +
-                            "o de los postres"
+                            "El usuario " + nombrePersona + " tiene mas hambre que el chavo y no le cabe eso de los postres"
                         );
                         console.log(
-                            "Preparar 4 Milanesas y tirar el postre a los perros. Tener en cuenta que quiza" +
-                            "s pida una milanga mas."
+                            "Preparar 4 Milanesas y tirar el postre a los perros. Tener en cuenta que quizas pida una milanga mas."
                         );
                     } else {
                         alert("Seleccionaste una opción incorrecta.");
@@ -113,8 +108,7 @@ for (i = 0; i < 3; i++) {
             "Seleccionaste una opción incorrecta. Por favor selecciona una opción correcta."
         );
         console.log(
-            "El usuario " + nombrePersona + " seleccionó una opción incorrecta en el menú p" +
-            "rincipal."
+            "El usuario " + nombrePersona + " seleccionó una opción incorrecta en el menú principal."
         );
 
     }
